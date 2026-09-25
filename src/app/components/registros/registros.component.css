@@ -1,0 +1,62 @@
+header {
+    background-color: rgb(159, 159, 159);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    button {
+        height: 5em;
+        width: 5em;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+    }
+}
+
+section {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+    margin: 1em;
+    padding: 0.8em;
+    border-radius: 0.2em;
+    background-color: rgb(192, 192, 192);
+}   
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#adicionar-registro {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
