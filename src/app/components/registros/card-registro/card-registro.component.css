@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+    margin: 1em;
+    padding: 0.8em;
+    border-radius: 0.2em;
+    background-color: rgb(192, 192, 192);
+}  
